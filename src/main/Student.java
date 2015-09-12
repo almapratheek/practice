@@ -1,5 +1,4 @@
-package main.java;
-
+package main;
 
 import java.util.Comparator;
 import java.util.List;
@@ -10,7 +9,7 @@ public class Student {
     private int age;
     private int totalMarks;
 
-    Student(int rollno, String name, int age, int totalMarks) {
+    public Student(int rollno, String name, int age, int totalMarks) {
         this.rollno = rollno;
         this.name = name;
         this.age = age;
