@@ -17,7 +17,11 @@ public class StudentTest {
         Student.sortAndPrint(al, 29, (s1, s2) -> {
             return s1.getAge() - s2.getAge();
         });
-        al.add(new Student(105,"sushma",60,1300));
+        al.add(new Student(105, "sushma", 25, 1300));
+        System.out.println("Elements after adding sushma");
+        Student.sortAndPrint(al, 29, (s1, s2) -> {
+            return s1.getAge() - s2.getAge();
+        });
 
     }
 
